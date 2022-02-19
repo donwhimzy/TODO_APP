@@ -54,6 +54,7 @@ Route::get('firstrequest',[myController::class,'firstrequest']);
 Route::get('para/{name}',[myController::class,'parameters']);
 
 
+
 // PRODUCT ROUTES
 Route::get('creater',[ProductController::class,'createproduct']);
 
