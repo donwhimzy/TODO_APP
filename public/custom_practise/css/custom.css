@@ -1,0 +1,207 @@
+body{
+    font-family: poppins;
+}
+
+.primary-color{
+    color: #fd5f00;
+}
+
+.secondary-color{
+    color: #0d1128;
+}
+
+.primary-bg{
+    background-color: #fd5f00;
+}
+
+.secondary-bg{
+    background-color: #0d1128;
+}
+
+.logo-top{
+    font-family: poppins;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.logo-bottom{
+    font-family: poppins;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.top-email-icon{
+    color: #fd5f00;
+}
+
+.top-apply-button{
+    border: 1px solid #fd5f00;
+    color: white;
+    background-color: #fd5f00;
+    padding: 10px 15px;
+}
+
+.top-apply-button:hover{
+    border: 1px solid #fd5f00;
+    color: #fd5f00;
+    background-color: white;
+}
+
+.offer-icon{
+    font-size: 25px;
+    color:white;
+    border: 2px solid #fd5f00;
+    background-color: #fd5f00;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.about-desc{
+    background-image: url("../images/bg_3.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.about-desc::before{
+    background-color: rgba(122,49,3,0.7);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    content: "";
+}
+
+.about-desc-img{
+    background-image: url("../images/about-2.jpg");
+    background-size: cover;
+    background-position: cover;
+}
+
+.about-desc-icon{
+    color: #fd5f00;
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 20px;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 20px;
+}
+
+.overlay2{
+    position: absolute;
+    height: 474px;
+    width: 100%;
+    background-color: rgba(122,49,3,0.4);
+}
+
+.caro-text{
+    padding: 70px 150px;
+}
+
+.caro-text p{
+    font-size: 20px;
+}
+
+.caro-text a{
+    border: 1px solid #fd5f00;
+    color: white;
+    padding: 20px;
+    background-color: #fd5f00;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.caro-text a:hover{
+    border: 1px solid #fd5f00;
+    color: #fd5f00;
+    background-color: transparent;
+    text-decoration: none;
+}
+.our-course-icons i{
+    color: #fd5f00;
+    font-size: 12px;
+}
+
+.our-course-icons span{
+    font-size: 12px;
+}
+
+.card-body{
+    margin-left:-17px;
+}
+
+.engine a{
+    padding: 10px;
+}
+
+.card a{
+    border: 1px solid #fd5f00;
+    border-radius: 10px;
+    color: white;
+    background-color: #fd5f00;
+    text-decoration: none;
+    padding: 3px;
+}
+.schoolTeacher{
+    color: #fd5f00;
+    font-size: 10px;
+}
+
+.request a{
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #fd5f00;
+    border-radius: 20px;
+    background-color: #fd5f00;
+    color: white;
+}
+
+.request_{
+    border-bottom: 1px solid white;
+}
+
+.requestQuote{
+    background-image: url("../images/bg_5.jpg");
+    background-size: cover;
+    background-position: cover;
+    position: relative;
+}
+
+.requestQuote::before{
+    background-color: rgba(122,49,3,0.7);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    content: "";
+}
+
+.recentBlog{
+    background-color:"";
+}
+.recentBlog h1{
+    text-align: center;
+}
+
+.recentBlog span{
+    color: #fd5f00;
+}
+
+.studentAbout img{
+    border-radius: 50%;
+    margin-left: 350px;
+}
+.studentAbout span{
+    color: #fd5f00;
+}
+
+.studentAb{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
